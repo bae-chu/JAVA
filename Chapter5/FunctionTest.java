@@ -6,21 +6,21 @@ public class FunctionTest {
 		int num1 = 10;
 		int num2 = 20;
 
-		int sum1 = add(num1, num2);
+		int sum1 = add(num1, num2); //add í•¨ìˆ˜ í˜¸ì¶œ
 		int sum2 = sub(num1, num2);
 		int sum3 = gob(num1, num2);
 		double
 		sum4 = div(num1, num2);
-		System.out.println(num1 + "+" + num2 + "=" + sum1 + "ÀÔ´Ï´Ù.");
-		System.out.println(num1 + "-" + num2 + "=" + sum2 + "ÀÔ´Ï´Ù.");
-		System.out.println(num1 + "¡¿" + num2 + "=" + sum3 + "ÀÔ´Ï´Ù.");
-		System.out.println(num1 + "¡À" + num2 + "=" + sum4 + "ÀÔ´Ï´Ù.");
+		System.out.println(num1 + "+" + num2 + "=" + sum1 + "ì…ë‹ˆë‹¤.");
+		System.out.println(num1 + "-" + num2 + "=" + sum2 + "ì…ë‹ˆë‹¤.");
+		System.out.println(num1 + "Ã—" + num2 + "=" + sum3 + "ì…ë‹ˆë‹¤.");
+		System.out.println(num1 + "Ã·" + num2 + "=" + sum4 + "ì…ë‹ˆë‹¤.");
 		}
 
-	public static int add(int n1, int n2) {
+	public static int add(int n1, int n2) { //<- ìœ„ì—ì„œ í˜¸ì¶œí–ˆë˜ add í•¨ìˆ˜
 		int result = n1+n2;
 		return result;
-		//return n1+n2 À§¿¡ µÎÁÙÃ³·³ ¾ÈÀû°í ÀÌ·¸°Ô Àû¾îµµ µÊ
+		//return n1+n2 ìœ„ì— ë‘ì¤„ì²˜ëŸ¼ ì•ˆì ê³  ì´ë ‡ê²Œ ì ì–´ë„ ë¨
 	}
 	
 	public static int sub(int n1, int n2) {
