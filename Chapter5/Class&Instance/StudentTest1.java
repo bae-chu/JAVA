@@ -3,12 +3,12 @@ package classpart;
 public class StudentTest1 {
 	public static void main(String[] args) {
 		
-		Student student1 = new Student(); // Ã¹ ¹øÂ° ÇĞ»ı »ı¼º
-		student1.studentName="¾È¿¬¼ö";
+		Student student1 = new Student(); // ì²« ë²ˆì§¸ í•™ìƒ ìƒì„±
+		student1.studentName="ì•ˆì—°ìˆ˜";
 		student1.st=("test1");
 		
-		Student student2 = new Student();// µÎ ¹øÂ° ÇĞ»ı »ı¼º
-		student2.studentName="¾È½Â¿¬";
+		Student student2 = new Student();// ë‘ ë²ˆì§¸ í•™ìƒ ìƒì„±
+		student2.studentName="ì•ˆìŠ¹ì—°";
 		student2.address="test2";
 		
 		System.out.println(student1.getStudentName());
