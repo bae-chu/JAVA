@@ -3,16 +3,16 @@ package constructor;
 public class PersonTest {
 	public static void main(String[] args) {
 		
-		Person personKim = new Person(); //ìƒì„±ìì—ëŠ” ë¦¬í„´íƒ€ì…ì´ ìˆìœ¼ë©´ ì•ˆë¨. 
-		personKim.name="ê¹€ìœ ì‹ ";
+		Person personKim = new Person(); //»ı¼ºÀÚ¿¡´Â ¸®ÅÏÅ¸ÀÔÀÌ ÀÖÀ¸¸é ¾ÈµÊ. 
+		personKim.name="±èÀ¯½Å";
 		personKim.weight=85.5F;
 		personKim.height=180.0F;
 		
-		Person personLee = new Person("ì´ìˆœì‹ ", 175, 75);
-		//Person í´ë˜ìŠ¤ì„œ ë§Œë“¤ì–´ë†“ì€  public Person(String pname, float pheight, float pweight) 
-		//ì´ ìƒì„±ìë¥¼ ë°›ì•„ì„œ ìœ„ì™€ ê°™ì´ ì‚¬ìš©í•  ìˆ˜ ìˆìŒ.
-		//êµì¬ì²˜ëŸ¼ personkim.name="ê¹€ìœ ì‹ " ì´ê±° ì•ˆì ì–´ë„ 11í–‰ì²˜ëŸ¼ ì‚¬ìš© ê°€ëŠ¥.
-		//11í–‰ì´ 6~9í–‰ì„ í‰ì¹  ìˆ˜ ìˆìŒ. 
+		Person personLee = new Person("ÀÌ¼ø½Å", 175, 75);
+		//Person Å¬·¡½º¼­ ¸¸µé¾î³õÀº  public Person(String pname, float pheight, float pweight) 
+		//ÀÌ »ı¼ºÀÚ¸¦ ¹Ş¾Æ¼­ À§¿Í °°ÀÌ »ç¿ëÇÒ ¼ö ÀÖÀ½.
+		//±³ÀçÃ³·³ personkim.name="±èÀ¯½Å" ÀÌ°Å ¾ÈÀû¾îµµ 11ÇàÃ³·³ »ç¿ë °¡´É.
+		//11ÇàÀÌ 6~9ÇàÀ» ÅüÄ¥ ¼ö ÀÖÀ½. 
 	}
 
 }
