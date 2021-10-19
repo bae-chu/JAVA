@@ -7,20 +7,20 @@ public class Student {
 	String address;
 	String st;
 
-	//Ã¥ p.141~142 ÂüÁ¶
+	//ì±… p.141~142 ì°¸ì¡°
 	public void showStudentInfo() {
 		System.out.println(studentName+ "," + address);
 	}
 	
-	public String getStudentName() { // getÀº ¸Å°³º¯¼ö() ¾ø°í, returnÀÌ ÀÖÀ½
+	public String getStudentName() { // getì€ ë§¤ê°œë³€ìˆ˜() ì—†ê³ , returnì´ ìˆìŒ
 		return studentName;
 	}
-	public void setStudentname(String name) { //setÀº ¸Å°³º¯¼ö(String name)ÀÖ°í, return¾øÀ½. 
+	public void setStudentname(String name) { //setì€ ë§¤ê°œë³€ìˆ˜(String name)ìˆê³ , returnì—†ìŒ. 
 		studentName = name;
 	}
 	public static void main(String[] args) {
-		Student studentAhn = new Student(); //Student Å¬·¡½º »ı¼º
-		studentAhn.studentName="¾È¿¬¼ö";
+		Student studentAhn = new Student(); //Student í´ë˜ìŠ¤ ìƒì„±
+		studentAhn.studentName="ì•ˆì—°ìˆ˜";
 		
 		System.out.println(studentAhn.studentName);
 		System.out.println(studentAhn.getStudentName());
