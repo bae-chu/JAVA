@@ -2,8 +2,8 @@ package classpart;
 
 public class StudentTest {
 	public static void main(String[] args) {
-		classpart.Student studentAhn = new Student(); // µ¿ÀÏ Å¬·¡½ºÀÌ¹Ç·Î »ç½Ç ¸Ç ¾Õ¿¡ classpart.´Â  »ı·«°¡´É
-		studentAhn.studentName="¾È½Â¿¬";
+		classpart.Student studentAhn = new Student(); // ë™ì¼ í´ë˜ìŠ¤ì´ë¯€ë¡œ ì‚¬ì‹¤ ë§¨ ì•ì— classpart.ëŠ”  ìƒëµê°€ëŠ¥
+		studentAhn.studentName="ì•ˆìŠ¹ì—°";
 		
 		System.out.println(studentAhn.studentName);
 		System.out.println(studentAhn.getStudentName());
