@@ -1,8 +1,8 @@
 package classpart;
-//man Å¬·¡½º ÀÛ¼ºÇÏ°í(³ªÀÌ ÀÌ¸§ °áÈ¥¿©ºÎ ÀÚ³à¼ö)
-//¸É¹öº¯¼ö¿¡ ´ëÇÏ¿© getter, setter »ı¼ºÇÔ.(°ÔÅÍ ¼¼ÅÍ´Â º¯¼öº°·Î µû·Îµû·Î 4°³¾¿) 
-//man test Å¬·¡½º¿¡¼­ man Å¬·¡½º ÀÎ½ºÅÏ½º »ı¼º., main ¸Ş¼Òµå »ı¼ºÇÏ°í. 
-//°ª ¼³Á¤ÇÏ°í, ¸¶Áö¸· Ãâ·Â. 
+//man í´ë˜ìŠ¤ ì‘ì„±í•˜ê³ (ë‚˜ì´ ì´ë¦„ ê²°í˜¼ì—¬ë¶€ ìë…€ìˆ˜)
+//ë§´ë²„ë³€ìˆ˜ì— ëŒ€í•˜ì—¬ getter, setter ìƒì„±í•¨.(ê²Œí„° ì„¸í„°ëŠ” ë³€ìˆ˜ë³„ë¡œ ë”°ë¡œë”°ë¡œ 4ê°œì”©) 
+//man test í´ë˜ìŠ¤ì—ì„œ man í´ë˜ìŠ¤ ì¸ìŠ¤í„´ìŠ¤ ìƒì„±., main ë©”ì†Œë“œ ìƒì„±í•˜ê³ . 
+//ê°’ ì„¤ì •í•˜ê³ , ë§ˆì§€ë§‰ ì¶œë ¥. 
 public class Man {
 
 		int age;
@@ -10,12 +10,12 @@ public class Man {
 		boolean isMarried;
 		int child;
 		
-		public int getAge() {//getÀº ¸Å°³º¯¼ö ¾øÀ½
-		//getÀº ¸®ÅÏ°ª ÀÖÀ½
+		public int getAge() {//getì€ ë§¤ê°œë³€ìˆ˜ ì—†ìŒ
+		//getì€ ë¦¬í„´ê°’ ìˆìŒ
 			return age;
 		}
-		public void setAge(int age) {//setÀº ¸Å°³º¯¼ö ÀÖÀ½
-		//setÀº ¸®ÅÏ°ª ¾øÀ½
+		public void setAge(int age) {//setì€ ë§¤ê°œë³€ìˆ˜ ìˆìŒ
+		//setì€ ë¦¬í„´ê°’ ì—†ìŒ
 			this.age = age;
 		}
 		public String getName() {
