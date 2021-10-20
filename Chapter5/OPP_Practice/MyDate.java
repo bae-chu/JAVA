@@ -7,12 +7,12 @@ public class MyDate {
 	private int year;
 	public boolean isValid=false;
 	
-	public MyDate(int day, int month, int year) {//day, month, year¸¦ ¸Å°³º¯¼ö·Î ¹Ş´Â »ı¼ºÀÚ ¸¸µê
+	public MyDate(int day, int month, int year) {//day, month, yearë¥¼ ë§¤ê°œë³€ìˆ˜ë¡œ ë°›ëŠ” ìƒì„±ì ë§Œë“¦
 		this.year=year;
 		setMonth(month);
 		setDay(day);
 	}
-	//¿¬»êÀº ¼øÂ÷ÀûÀ¸·Î ÁøÇàµÇ¹Ç·Î, ¿¬-¿ù-ÀÏ ¼øÀ¸·Î ÀÔ·ÂÀ» ÇØÁÖ´Â°Ô ÁÁ´Ù. 
+	//ì—°ì‚°ì€ ìˆœì°¨ì ìœ¼ë¡œ ì§„í–‰ë˜ë¯€ë¡œ, ì—°-ì›”-ì¼ ìˆœìœ¼ë¡œ ì…ë ¥ì„ í•´ì£¼ëŠ”ê²Œ ì¢‹ë‹¤. 
 		
 		
 	
