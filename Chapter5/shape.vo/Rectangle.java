@@ -34,11 +34,11 @@ public class Rectangle {
 
 }
 /*
-ÆÐÅ°Áö : shape.vo(value object)
+íŒ¨í‚¤ì§€ : shape.vo(value object)
 
-1. »ç°¢ÇüÀ» ³ªÅ¸³»´Â Å¬·¡½º rectangle
-2. ¸â¹öº¯¼ö : ³ôÀÌ height  ³ÐÀÌ : width  => 32ºñÆ® Á¤¼öÇü private·Î
-3. °¢ ¸â¹öº¯¼ö¿¡ ´ëÇÏ¿© get¶û set ¼³Á¤, public. 
-4. ¸Þ¼Òµå : »ç°¢ÇüÀÇ ¸éÀûÀ» ±¸ÇÏ¿© ¹ÝÈ¯ÇÏ´Â ¸Þ¼­µå, ¸Å°³º¯¼ö ¾øÀ½, publicÀ¸·Î . 
-	ÀÌ¸§ - getArea 
+1. ì‚¬ê°í˜•ì„ ë‚˜íƒ€ë‚´ëŠ” í´ëž˜ìŠ¤ rectangle
+2. ë©¤ë²„ë³€ìˆ˜ : ë†’ì´ height  ë„“ì´ : width  => 32ë¹„íŠ¸ ì •ìˆ˜í˜• privateë¡œ
+3. ê° ë©¤ë²„ë³€ìˆ˜ì— ëŒ€í•˜ì—¬ getëž‘ set ì„¤ì •, public. 
+4. ë©”ì†Œë“œ : ì‚¬ê°í˜•ì˜ ë©´ì ì„ êµ¬í•˜ì—¬ ë°˜í™˜í•˜ëŠ” ë©”ì„œë“œ, ë§¤ê°œë³€ìˆ˜ ì—†ìŒ, publicìœ¼ë¡œ . 
+	ì´ë¦„ - getArea 
 */
