@@ -1,7 +1,7 @@
 package thisex;
 
 	
-class BirthDay {//´Ù¸¥Å¬·¡½º ³Ö±âÀ§ÇØ¼± Á¢±ÙÁ¦¾îÀÚ(public)ÀÌ ¾ø¾î¾ßÇÔ
+class BirthDay {//ë‹¤ë¥¸í´ë˜ìŠ¤ ë„£ê¸°ìœ„í•´ì„  ì ‘ê·¼ì œì–´ì(public)ì´ ì—†ì–´ì•¼í•¨
 	int day;
 	int month;
 	int year;
@@ -14,13 +14,13 @@ class BirthDay {//´Ù¸¥Å¬·¡½º ³Ö±âÀ§ÇØ¼± Á¢±ÙÁ¦¾îÀÚ(public)ÀÌ ¾ø¾î¾ßÇÔ
 		System.out.println(this);
 	}
 }
-	public class ThisExample { //BirthDay Å×½ºÆ®¸¦ À§ÇÑ Å¬·¡½º
+	public class ThisExample { //BirthDay í…ŒìŠ¤íŠ¸ë¥¼ ìœ„í•œ í´ë˜ìŠ¤
 		public static void main(String[] args) {
 			BirthDay bDay = new BirthDay();
 			bDay.setYear(2000);
 			System.out.println(bDay);
 			bDay.printThis();
 			
-		}//this : »ı¼ºµÈ ÀÎ½ºÅÏ½º °´Ã¼¸¦ ÀÏÄÂ´Â ¸».
+		}//this : ìƒì„±ëœ ì¸ìŠ¤í„´ìŠ¤ ê°ì²´ë¥¼ ì¼ì»«ëŠ” ë§.
 
 }
