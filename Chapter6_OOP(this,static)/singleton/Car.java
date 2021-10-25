@@ -1,7 +1,7 @@
 package singleton;
 
 public class Car {
-	private static int serialNum=10000; //Áß¿ä
+	private static int serialNum=10000; //ì¤‘ìš”
 	private int carNum;
 
 
@@ -35,8 +35,8 @@ public class Student1 {
 	public String address;
 	
 	public Student1() {
-		serialNum++; //Å¬·¡½º º¯¼ö. È£ÃâÇÒ ¶§¸¶´Ù °ªÀÌ 1¾¿ ´Ã¾î³ª°Ô ¼³Á¤
-		studentID=serialNum; //ÀÎ½ºÅÏ½ºº¯¼ö
+		serialNum++; //í´ë˜ìŠ¤ ë³€ìˆ˜. í˜¸ì¶œí•  ë•Œë§ˆë‹¤ ê°’ì´ 1ì”© ëŠ˜ì–´ë‚˜ê²Œ ì„¤ì •
+		studentID=serialNum; //ì¸ìŠ¤í„´ìŠ¤ë³€ìˆ˜
 	}
 	
 	public String getStudentName() {
