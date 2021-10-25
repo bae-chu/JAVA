@@ -4,16 +4,16 @@ public class Card {
 	public static long serialNum = 1000000000000000L;
 	public String cardName;
 	//public long cardNum;
-	private String cardNum; //¿ÜºÎ¿¡¼­ Á¢±Ù¸øÇÏ°Ô private ¼³Á¤. Ä«µå¹øÈ£ 4ÀÚ¸® ²÷¾î Ç¥ÇöÇÏ±âÀ§ÇØ String
+	private String cardNum; //ì™¸ë¶€ì—ì„œ ì ‘ê·¼ëª»í•˜ê²Œ private ì„¤ì •. ì¹´ë“œë²ˆí˜¸ 4ìë¦¬ ëŠì–´ í‘œí˜„í•˜ê¸°ìœ„í•´ String
 	
 	public Card() {
 		serialNum++;
-		cardNum = String.valueOf(serialNum); // 4ÀÚ¸® ²÷¾îÇ¥ÇöÇÔ
+		cardNum = String.valueOf(serialNum); // 4ìë¦¬ ëŠì–´í‘œí˜„í•¨
 	}
 	
-	public Card(String cardName) { //test ÆäÀÌÁö¿¡¼­ Ä«µå ÀÌ¸§ ÀÔ·ÂÇÏ´Â ¿ë
-		this(); // ´Ù¸¥ »ı¼ºÀÚ È£Ãâ
-		this.cardName = cardName; //ÀÌ·¸°Ô ÇÏ¸é µğÆúÆ® »ı¼ºÀÚ ¸¸µé ¼ö ÀÖÀ½.
+	public Card(String cardName) { //test í˜ì´ì§€ì—ì„œ ì¹´ë“œ ì´ë¦„ ì…ë ¥í•˜ëŠ” ìš©
+		this(); // ë‹¤ë¥¸ ìƒì„±ì í˜¸ì¶œ
+		this.cardName = cardName; //ì´ë ‡ê²Œ í•˜ë©´ ë””í´íŠ¸ ìƒì„±ì ë§Œë“¤ ìˆ˜ ìˆìŒ.
 	} 
 
 	public String getCardName() { 
@@ -25,7 +25,7 @@ public class Card {
 		this.cardName = cardName;
 	}
 
-	public String getCardNum() {	//Ä«µå¹øÈ£´Â ¿ÜºÎ¿¡¼­ ÀĞÀ¸¸é ¾ÈµÇ¹Ç·Î get¸¸ ¸¸µê.
+	public String getCardNum() {	//ì¹´ë“œë²ˆí˜¸ëŠ” ì™¸ë¶€ì—ì„œ ì½ìœ¼ë©´ ì•ˆë˜ë¯€ë¡œ getë§Œ ë§Œë“¦.
 		return cardNum.substring(0,4)+"-"+cardNum.substring(4,8)+
 				"-"+cardNum.substring(8, 12)+"-"+cardNum.substring(12);
 		
@@ -48,8 +48,8 @@ public class Student1 {
 	public String address;
 	
 	public Student1() {
-		serialNum++; //Å¬·¡½º º¯¼ö. È£ÃâÇÒ ¶§¸¶´Ù °ªÀÌ 1¾¿ ´Ã¾î³ª°Ô ¼³Á¤
-		studentID=serialNum; //ÀÎ½ºÅÏ½ºº¯¼ö
+		serialNum++; //í´ë˜ìŠ¤ ë³€ìˆ˜. í˜¸ì¶œí•  ë•Œë§ˆë‹¤ ê°’ì´ 1ì”© ëŠ˜ì–´ë‚˜ê²Œ ì„¤ì •
+		studentID=serialNum; //ì¸ìŠ¤í„´ìŠ¤ë³€ìˆ˜
 	}
 	
 	public String getStudentName() {
