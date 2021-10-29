@@ -1,16 +1,16 @@
 package inheritance;
 
 public class Customer {
-	protected int customerID; // ÇöÀç ±âÁØÀ¸·Î´Â private »óÅÂ¶ó ¿ÜºÎ¿¡¼± Á¢±Ù ºÒ°¡
+	protected int customerID; // í˜„ì¬ ê¸°ì¤€ìœ¼ë¡œëŠ” private ìƒíƒœë¼ ì™¸ë¶€ì—ì„  ì ‘ê·¼ ë¶ˆê°€
 	protected String customerName;
 	protected String customerGrade;
-	int bonusPoint;		//ÀÌ°Ç µ¿ÆĞÅ°Áö Å¸Å¬·¡½º¿¡¼­ Á¢±Ù °¡´É
+	int bonusPoint;		//ì´ê±´ ë™íŒ¨í‚¤ì§€ íƒ€í´ë˜ìŠ¤ì—ì„œ ì ‘ê·¼ ê°€ëŠ¥
 	double bonusRatio; 
 	
-//	public Customer() { //Ä¿½ºÅÍ¸Ó °´Ã¤»ı¼ºÇØ¼­ ÀÚµ¿À¸·Î ½Ç¹ö µî·ÏµÇ°í, Àû¸³·üÀº ¾Æ·¡¿Í°°À½. 
+//	public Customer() { //ì»¤ìŠ¤í„°ë¨¸ ê°ì±„ìƒì„±í•´ì„œ ìë™ìœ¼ë¡œ ì‹¤ë²„ ë“±ë¡ë˜ê³ , ì ë¦½ë¥ ì€ ì•„ë˜ì™€ê°™ìŒ. 
 //		customerGrade = "SILVER";
 //		bonusRatio = 0.01;
-//		System.out.println("Customer() »ı¼ºÀÚ È£Ãâ");
+//		System.out.println("Customer() ìƒì„±ì í˜¸ì¶œ");
 //	}
 //	
 	public Customer(int customerID, String customerName) {
@@ -19,7 +19,7 @@ public class Customer {
 		this.customerName = customerName;
 		customerGrade = "SILVER";
 		bonusRatio = 0.01;
-		System.out.println("Customer() »ı¼ºÀÚ È£Ãâ");
+		System.out.println("Customer() ìƒì„±ì í˜¸ì¶œ");
 	}
 
 	public int calcPrice(int price) {
@@ -28,7 +28,7 @@ public class Customer {
 	}
 	
 	public String showCustomerInfo() {
-		return customerName + "´ÔÀÇ µî±ŞÀº " + customerGrade + "ÀÌ¸ç, º¸³Ê½º Æ÷ÀÎÆ®´Â " + bonusPoint + " ÀÔ´Ï´Ù.";
+		return customerName + "ë‹˜ì˜ ë“±ê¸‰ì€ " + customerGrade + "ì´ë©°, ë³´ë„ˆìŠ¤ í¬ì¸íŠ¸ëŠ” " + bonusPoint + " ì…ë‹ˆë‹¤.";
 	}
 
 	public int getCustomerID() {
