@@ -2,25 +2,25 @@ package polymorphism;
 
 	class Animal{
 		public void move() {
-			System.out.println("µ¿¹°ÀÌ ¿òÁ÷ÀÔ´Ï´Ù.");
+			System.out.println("ë™ë¬¼ì´ ì›€ì§ì…ë‹ˆë‹¤.");
 		}
 	}
 	
 	class Human extends Animal{
 		public void move() {
-			System.out.println("»ç¶÷ÀÌ µÎ ¹ß·Î °È½À´Ï´Ù.");
+			System.out.println("ì‚¬ëŒì´ ë‘ ë°œë¡œ ê±·ìŠµë‹ˆë‹¤.");
 		}
 	}
 	
 	class Tiger extends Animal{
 		public void move() {
-			System.out.println("È£¶ûÀÌ°¡ ³× ¹ß·Î ¶İ´Ï´Ù.");
+			System.out.println("í˜¸ë‘ì´ê°€ ë„¤ ë°œë¡œ ëœë‹ˆë‹¤.");
 		}
 	}
 	
 	class Eagle extends Animal{
 		public void move() {
-			System.out.println("µ¶¼ö¸®°¡ ÇÏ´ÃÀ» ³³´Ï´Ù.");
+			System.out.println("ë…ìˆ˜ë¦¬ê°€ í•˜ëŠ˜ì„ ë‚©ë‹ˆë‹¤.");
 		}
 	}
 	
