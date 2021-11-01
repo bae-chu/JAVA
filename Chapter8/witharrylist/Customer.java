@@ -19,7 +19,7 @@ public class Customer {
 	
 	private void initCustomer() {
 		customerGrade="SILVER";
-		bonusRatio=0.01; // 1Â÷ÀûÀ¸·Î ¾ê¸¦ È£ÃâÇŞ´Âµ¥
+		bonusRatio=0.01; // 1ì°¨ì ìœ¼ë¡œ ì–˜ë¥¼ í˜¸ì¶œí–‡ëŠ”ë°
 	}
 	
 	public int calcPrice(int price) {
@@ -27,8 +27,8 @@ public class Customer {
 		return price;
 	}
 	public String showCustomerInfo() {
-		return customerName + "´ÔÀÇ µî±ŞÀº" + customerGrade + "ÀÌ¸ç, º¸³Ê½º Æ÷ÀÎÆ®´Â"
-				+ bonusPoint + "ÀÔ´Ï´Ù.";
+		return customerName + "ë‹˜ì˜ ë“±ê¸‰ì€" + customerGrade + "ì´ë©°, ë³´ë„ˆìŠ¤ í¬ì¸íŠ¸ëŠ”"
+				+ bonusPoint + "ì…ë‹ˆë‹¤.";
 	}
 
 	public int getCustomerID() {
