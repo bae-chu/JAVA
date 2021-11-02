@@ -6,14 +6,14 @@ public abstract class Car {
 	public abstract void wiper();
 	
 	public void startCar(){
-		System.out.println("½Ãµ¿À» ÄÕ´Ï´Ù.");
+		System.out.println("ì‹œë™ì„ ì¼­ë‹ˆë‹¤.");
 	}
 	
 	public void turnOff() {
-		System.out.println("½Ãµ¿À» ²ü´Ï´Ù.");
+		System.out.println("ì‹œë™ì„ ë•ë‹ˆë‹¤.");
 	}
 	
-	final public void run() { //º¸ÅëÀº ÇÏÀ§Å¬·¡½º°¡ »ó¼ÓÀ» ¹ŞÀ»¼öÀÖ´Âµ¥ finalÀÌ ºÙÀ¸¸é ´õÀÌ»ó ºÒ°¡
+	final public void run() { //ë³´í†µì€ í•˜ìœ„í´ë˜ìŠ¤ê°€ ìƒì†ì„ ë°›ì„ìˆ˜ìˆëŠ”ë° finalì´ ë¶™ìœ¼ë©´ ë”ì´ìƒ ë¶ˆê°€
 		startCar();
 		drive();
 		wiper();
