@@ -7,7 +7,7 @@ public abstract class Car {
 	public abstract void turnoff();
 
 	public void washCar() {
-		System.out.println("¼¼Â÷¸¦ ÇÕ´Ï´Ù.");	
+		System.out.println("Â¼Â¼Ã‚Ã·Â¸Â¦ Ã‡Ã•Â´ÃÂ´Ã™.");	
 	}
 	
 	final public void run() {
