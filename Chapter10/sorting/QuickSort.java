@@ -14,7 +14,7 @@ public class QuickSort implements Sort {
 	}
 
 	public void description() {
-		Sort.super.description(); //ÀÌ°Ç ¼ÒÆ® ÀÎÅÍÆäÀÌ½º¿¡¼­ Á¤ÀÇÇß´ø ºÎºĞ (¼ıÀÚ¸¦ Á¤·ÄÇÏ´Â ¾Ë°í¸®ÁòÀÔ´Ï´Ù) ±×´ë·Î Ãâ·ÂÇÏ´Â ¸í·É¾î
-		System.out.println("QuickSort ÀÔ´Ï´Ù.");
+		Sort.super.description(); //ì´ê±´ ì†ŒíŠ¸ ì¸í„°í˜ì´ìŠ¤ì—ì„œ ì •ì˜í–ˆë˜ ë¶€ë¶„ (ìˆ«ìë¥¼ ì •ë ¬í•˜ëŠ” ì•Œê³ ë¦¬ì¦˜ì…ë‹ˆë‹¤) ê·¸ëŒ€ë¡œ ì¶œë ¥í•˜ëŠ” ëª…ë ¹ì–´
+		System.out.println("QuickSort ì…ë‹ˆë‹¤.");
 	}
 }
