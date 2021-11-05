@@ -5,15 +5,15 @@ public class Snail extends TwoDemension{
 	public void solve(int size) {
 		arr = new int[size][size];
 		int num = 0;
-		int i = 0; // ½ÃÀÛÇÏ´Â Çà À§Ä¡
-		int j = -1; // ¹è¿­ À§Ä¡Æ÷ÀÎÆ® ¸ÂÃß±â À§ÇØ -1
-		int s = 1;	//½ºÀ§Ä¡ º¯¼ö
-		int k = arr.length; // ¹İº¹È¸¼ö size·Î ÇØµµ µÊ.
+		int i = 0; // ì‹œì‘í•˜ëŠ” í–‰ ìœ„ì¹˜
+		int j = -1; // ë°°ì—´ ìœ„ì¹˜í¬ì¸íŠ¸ ë§ì¶”ê¸° ìœ„í•´ -1
+		int s = 1;	//ìŠ¤ìœ„ì¹˜ ë³€ìˆ˜
+		int k = arr.length; // ë°˜ë³µíšŒìˆ˜ sizeë¡œ í•´ë„ ë¨.
 
-		while (true) { // ¹«ÇÑ¹İº¹ ½ÃÅ°±âÀ§ÇØ true ³Ö°í, ³ª¿À´Â°Ç break
+		while (true) { // ë¬´í•œë°˜ë³µ ì‹œí‚¤ê¸°ìœ„í•´ true ë„£ê³ , ë‚˜ì˜¤ëŠ”ê±´ break
 			for (int p = 0; p < k; p++) { // (int p = 1; p <= k; p++)
 				num++;
-				j = j + s; // j+=s;·Î ÇØµµ µÊ.
+				j = j + s; // j+=s;ë¡œ í•´ë„ ë¨.
 				arr[i][j] = num;
 			}
 			
