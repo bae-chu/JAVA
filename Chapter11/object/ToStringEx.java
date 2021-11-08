@@ -17,7 +17,7 @@ class Book{
 }
 public class ToStringEx {
 	public static void main(String[] args) {
-		Book book1 = new Book(200, "°³¹Ì");
+		Book book1 = new Book(200, "Â°Â³Â¹ÃŒ");
 		
 		System.out.println(book1);
 		System.out.println(book1.toString());
