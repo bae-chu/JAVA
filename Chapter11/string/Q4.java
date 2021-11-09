@@ -17,10 +17,10 @@ class MyDog{
 public class Q4 {
 	public static void main(String[] args) {
 		
-		MyDog dog = new MyDog("�۸���", "������");
+		MyDog dog = new MyDog("멍멍이", "진돗개");
 		System.out.println(dog);
 	}
 
-	
+//멍멍이 진돗개를 반대로 출력하기
 
 }
