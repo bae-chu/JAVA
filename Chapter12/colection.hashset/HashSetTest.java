@@ -6,11 +6,11 @@ import java.util.Iterator;
 public class HashSetTest {
 	public static void main(String[] args) {
 		HashSet<String> hashSet = new HashSet<String>();
-		hashSet.add(new String("ÀÓÁ¤¼ø"));
-		hashSet.add(new String("¹ÚÇöÁ¤"));
-		hashSet.add(new String("È«¿¬ÀÇ"));
-		hashSet.add(new String("°­°¨Âù"));
-		hashSet.add(new String("°­°¨Âù"));
+		hashSet.add(new String("ì„ì •ìˆœ"));
+		hashSet.add(new String("ë°•í˜„ì •"));
+		hashSet.add(new String("í™ì—°ì˜"));
+		hashSet.add(new String("ê°•ê°ì°¬"));
+		hashSet.add(new String("ê°•ê°ì°¬"));
 	
 		System.out.println(hashSet);
 		
