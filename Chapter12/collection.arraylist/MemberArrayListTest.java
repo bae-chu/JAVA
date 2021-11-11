@@ -6,10 +6,10 @@ public class MemberArrayListTest {
 	public static void main(String[] args) {
 		MemberArrayList memberArrayList = new MemberArrayList();
 		
-		Member memberLee = new Member(1001, "ÀÌÁö¿ø");
-		Member memberSon = new Member(1002, "¼Õ¹Î±¹");
-		Member memberPark = new Member(1003, "¹Ú¼­ÈÍ");
-		Member memberHong = new Member(1004, "È«±æµ¿");
+		Member memberLee = new Member(1001, "ì´ì§€ì›");
+		Member memberSon = new Member(1002, "ì†ë¯¼êµ­");
+		Member memberPark = new Member(1003, "ë°•ì„œí›¤");
+		Member memberHong = new Member(1004, "í™ê¸¸ë™");
 		
 		memberArrayList.addMember(memberLee);
 		memberArrayList.addMember(memberSon);
