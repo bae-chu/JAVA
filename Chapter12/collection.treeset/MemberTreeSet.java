@@ -27,7 +27,7 @@ public class MemberTreeSet {
 				return true;
 			}
 		}
-		System.out.println(memberId + "°¡ Á¸ÀçÇÏÁö ¾Ê½À´Ï´Ù.");
+		System.out.println(memberId + "Â°Â¡ ÃÂ¸Ã€Ã§Ã‡ÃÃÃ¶ Â¾ÃŠÂ½Ã€Â´ÃÂ´Ã™.");
 		return false;
 	}
 	public void showAllMember() {
