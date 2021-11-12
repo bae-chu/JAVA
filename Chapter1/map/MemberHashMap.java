@@ -21,12 +21,12 @@ public class MemberHashMap {
 			hashMap.remove(memberId);
 			return true;
 		}
-		System.out.println(memberId + "°¡ Á¸ÀçÇÏÁö ¾Ê½À´Ï´Ù");
+		System.out.println(memberId + "ê°€ ì¡´ì¬í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤");
 		return false;
 	}
 	
 	public void showAllmember() {
-//		Set<Integer> keyset = hashMap.keyset();  ¿ø·¡´Â ¿ä ÁÙµµ µé¾î°¡¾ß ÇÔ. 
+//		Set<Integer> keyset = hashMap.keyset();  ì›ë˜ëŠ” ìš” ì¤„ë„ ë“¤ì–´ê°€ì•¼ í•¨. 
 		Iterator<Integer> ir = hashMap.keySet().iterator();
 		while(ir.hasNext()) {
 			int key = ir.next();
