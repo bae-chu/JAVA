@@ -6,10 +6,10 @@ public class MemberHashMapTest {
 	public static void main(String[] arsg) {
 		MemberHashMap memberHashMap = new MemberHashMap();
 		
-		Member memberLee = new Member(1001, "ÀÌÁö¿ø");
-		Member memberSon = new Member(1002, "¼Õ¹Î±¹");
-		Member memberPark = new Member(1003, "¹Ú¼­ÈÍ");
-		Member memberHong = new Member(1004, "È«±æµ¿");
+		Member memberLee = new Member(1001, "ì´ì§€ì›");
+		Member memberSon = new Member(1002, "ì†ë¯¼êµ­");
+		Member memberPark = new Member(1003, "ë°•ì„œí›¤");
+		Member memberHong = new Member(1004, "í™ê¸¸ë™");
 		
 		memberHashMap.addMember(memberLee);
 		memberHashMap.addMember(memberSon);
