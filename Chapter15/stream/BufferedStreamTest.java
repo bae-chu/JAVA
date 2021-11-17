@@ -22,7 +22,7 @@ public class BufferedStreamTest {
 		} catch(IOException e) {
 			e.printStackTrace();
 		}
-		System.out.println("ÆÄÀÏº¹»çÇÏ´Â µ¥ " + millisecond + "milliseconds ¼Ò¿äµÇ¾ú½À´Ï´Ù.");
+		System.out.println("íŒŒì¼ë³µì‚¬í•˜ëŠ” ë° " + millisecond + "milliseconds ì†Œìš”ë˜ì—ˆìŠµë‹ˆë‹¤.");
 	}
 
 }
