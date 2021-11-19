@@ -26,3 +26,5 @@ public class UserCopy {
 	} 
 
 	}
+// 문제 : 명령프롬프트 창에서 java UserCopy copy.txt copycopy.txt 입력시 
+// copy가 copycopy 복사하도록 코딩할 것. 
