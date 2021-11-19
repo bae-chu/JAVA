@@ -10,7 +10,7 @@ public class Q3 {
 		FileOutputStream fos = new FileOutputStream("a.txt");
 		OutputStreamWriter osw = new OutputStreamWriter(fos);
 		
-		osw.write("Áö±İ±îÁö ÀÚ¹Ù Á¤¸» Àç¹ÌÀÖ°Ô °øºÎÇß¾î¿ä^^");
+		osw.write("ì§€ê¸ˆê¹Œì§€ ìë°” ì •ë§ ì¬ë¯¸ìˆê²Œ ê³µë¶€í–ˆì–´ìš”^^");
 	
 		osw.flush();
 	}
@@ -20,12 +20,12 @@ public class Q3 {
 public class Q3 {
 	public static void main(String[] args) {
 		try(FileWriter fw = new FileWriter("a.txt")){
-			fw.write("Áö±İ±îÁö ÀÚ¹Ù Á¤¸» Àç¹ÌÀÖ°Ô °øºÎÇß¾î¿ä ^^");
+			fw.write("ì§€ê¸ˆê¹Œì§€ ìë°” ì •ë§ ì¬ë¯¸ìˆê²Œ ê³µë¶€í–ˆì–´ìš” ^^");
 		} catch(IOException e) {
 			e.printStackTrace();
 		}
-		System.out.println("Ãâ·Â¿Ï·á");
+		System.out.println("ì¶œë ¥ì™„ë£Œ");
 	}
 }
 
-*/
+*/ 
